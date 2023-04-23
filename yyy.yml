@@ -1,0 +1,1217 @@
+#!MANAGED-CONFIG https://www.anthoncloud.com/link/wuH5bLVB8at5OBGQ?sub=macos
+
+#---------------------------------------------------#
+## 上次更新于：2023-04-23 10:47:00
+#---------------------------------------------------#
+
+mixed-port: 7890
+mode: rule
+log-level: silent
+external-controller: '0.0.0.0:9090'
+allow-lan: true
+secret: ''
+dns:
+  enable: true
+  listen: '0.0.0.0:53'
+  ipv6: true
+  enhanced-mode: fake-ip
+  nameserver:
+    - 223.5.5.5
+    - 223.6.6.6
+tun:
+  enable: false
+  stack: ''
+  auto-detect-interface: true
+  auto-route: true
+  dns-hijack:
+    - 223.5.5.5
+    - 223.6.6.6
+proxies:
+  -
+    name: '🇸🇬 新加坡 - 普通服务器01'
+    type: trojan
+    server: singapore.anthoncloud.com
+    port: 30766
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇸🇬 新加坡 - 普通服务器02'
+    type: trojan
+    server: shct.r1u.cn
+    port: 16658
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇸🇬 新加坡 - 普通服务器03'
+    type: trojan
+    server: jscm.r1u.cn
+    port: 29592
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇸🇬 新加坡 - 普通服务器04'
+    type: trojan
+    server: ahyd.pangupy.com
+    port: 22722
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇸🇬 新加坡 - 普通服务器05'
+    type: trojan
+    server: ahyd.pangupy.com
+    port: 11251
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇸🇬 新加坡 - 普通服务器06'
+    type: trojan
+    server: shct.r1u.cn
+    port: 44249
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇸🇬 新加坡 - 普通服务器07'
+    type: trojan
+    server: jscm.r1u.cn
+    port: 15712
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇸🇬 新加坡 - 普通服务器08'
+    type: trojan
+    server: whcm.pangupy.com
+    port: 28315
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇸🇬 新加坡 - 普通服务器09'
+    type: trojan
+    server: whcm.pangupy.com
+    port: 13014
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇸🇬 新加坡 - 高端服务器01'
+    type: trojan
+    server: singapore.anthoncloud.com
+    port: 40986
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇸🇬 新加坡 - 高端服务器02'
+    type: trojan
+    server: shct.r1u.cn
+    port: 28917
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇸🇬 新加坡 - 高端服务器03'
+    type: trojan
+    server: jscm.r1u.cn
+    port: 13411
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇸🇬 新加坡 - 高端服务器04'
+    type: trojan
+    server: ahyd.pangupy.com
+    port: 11357
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇸🇬 新加坡 - 高端服务器05'
+    type: trojan
+    server: ahyd.pangupy.com
+    port: 19892
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇸🇬 新加坡 - 高端服务器06'
+    type: trojan
+    server: shct.r1u.cn
+    port: 38593
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇸🇬 新加坡 - 高端服务器07'
+    type: trojan
+    server: jscm.r1u.cn
+    port: 30584
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇸🇬 新加坡 - 高端服务器08'
+    type: trojan
+    server: whcm.pangupy.com
+    port: 16383
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇸🇬 新加坡 - 高端服务器09'
+    type: trojan
+    server: whcm.pangupy.com
+    port: 26469
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇯🇵 日本 - 普通服务器01'
+    type: trojan
+    server: tokyo.anthoncloud.com
+    port: 30797
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇯🇵 日本 - 普通服务器02'
+    type: trojan
+    server: shct.r1u.cn
+    port: 40567
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇯🇵 日本 - 普通服务器03'
+    type: trojan
+    server: jscm.r1u.cn
+    port: 21132
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇯🇵 日本 - 普通服务器04'
+    type: trojan
+    server: ahyd.pangupy.com
+    port: 19487
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇯🇵 日本 - 普通服务器06'
+    type: trojan
+    server: shct.r1u.cn
+    port: 40807
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇯🇵 日本 - 普通服务器07'
+    type: trojan
+    server: jscm.r1u.cn
+    port: 14706
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇯🇵 日本 - 普通服务器09'
+    type: trojan
+    server: whcm.pangupy.com
+    port: 21425
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇯🇵 日本 - 高端服务器01'
+    type: trojan
+    server: tokyo.anthoncloud.com
+    port: 41009
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇯🇵 日本 - 高端服务器02'
+    type: trojan
+    server: shct.r1u.cn
+    port: 48516
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇯🇵 日本 - 高端服务器03'
+    type: trojan
+    server: jscm.r1u.cn
+    port: 34959
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇯🇵 日本 - 高端服务器04'
+    type: trojan
+    server: ahyd.pangupy.com
+    port: 49719
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇯🇵 日本 - 高端服务器06'
+    type: trojan
+    server: shct.r1u.cn
+    port: 19324
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇯🇵 日本 - 高端服务器07'
+    type: trojan
+    server: jscm.r1u.cn
+    port: 14494
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇯🇵 日本 - 高端服务器09'
+    type: trojan
+    server: whcm.pangupy.com
+    port: 46484
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇫🇷 法国 - 普通服务器01'
+    type: trojan
+    server: paris.anthoncloud.com
+    port: 30721
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇫🇷 法国 - 普通服务器02'
+    type: trojan
+    server: shct.r1u.cn
+    port: 20698
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇫🇷 法国 - 高端服务器01'
+    type: trojan
+    server: paris.anthoncloud.com
+    port: 40962
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇫🇷 法国 - 高端服务器02'
+    type: trojan
+    server: shct.r1u.cn
+    port: 49291
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇦🇺 澳大利亚 - 普通服务器01'
+    type: trojan
+    server: sydney.anthoncloud.com
+    port: 30721
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇦🇺 澳大利亚 - 普通服务器02'
+    type: trojan
+    server: shct.r1u.cn
+    port: 27580
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇦🇺 澳大利亚 - 高端服务器01'
+    type: trojan
+    server: sydney.anthoncloud.com
+    port: 40961
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇦🇺 澳大利亚 - 高端服务器02'
+    type: trojan
+    server: shct.r1u.cn
+    port: 10449
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇺🇲 美国 - 普通服务器01'
+    type: trojan
+    server: losangeles.anthoncloud.com
+    port: 30879
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇺🇲 美国 - 普通服务器02'
+    type: trojan
+    server: shct.r1u.cn
+    port: 37774
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇺🇲 美国 - 普通服务器03'
+    type: trojan
+    server: jscm.r1u.cn
+    port: 14843
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇺🇲 美国 - 普通服务器04'
+    type: trojan
+    server: ahyd.pangupy.com
+    port: 41435
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇺🇲 美国 - 普通服务器06'
+    type: trojan
+    server: shct.r1u.cn
+    port: 25251
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇺🇲 美国 - 普通服务器07'
+    type: trojan
+    server: jscm.r1u.cn
+    port: 30733
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇺🇲 美国 - 普通服务器09'
+    type: trojan
+    server: whcm.pangupy.com
+    port: 24897
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇺🇲 美国 - 高端服务器01'
+    type: trojan
+    server: losangeles.anthoncloud.com
+    port: 41111
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇺🇲 美国 - 高端服务器02'
+    type: trojan
+    server: shct.r1u.cn
+    port: 18472
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇺🇲 美国 - 高端服务器03'
+    type: trojan
+    server: jscm.r1u.cn
+    port: 34173
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇺🇲 美国 - 高端服务器04'
+    type: trojan
+    server: ahyd.pangupy.com
+    port: 29925
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇺🇲 美国 - 高端服务器06'
+    type: trojan
+    server: shct.r1u.cn
+    port: 23601
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇺🇲 美国 - 高端服务器07'
+    type: trojan
+    server: jscm.r1u.cn
+    port: 32026
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇺🇲 美国 - 高端服务器09'
+    type: trojan
+    server: whcm.pangupy.com
+    port: 49342
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇬🇧 英国 - 普通服务器01'
+    type: trojan
+    server: london.anthoncloud.com
+    port: 30723
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇬🇧 英国 - 普通服务器02'
+    type: trojan
+    server: shct.r1u.cn
+    port: 11975
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇬🇧 英国 - 高端服务器01'
+    type: trojan
+    server: london.anthoncloud.com
+    port: 40965
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇬🇧 英国 - 高端服务器02'
+    type: trojan
+    server: shct.r1u.cn
+    port: 20280
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇰🇷 韩国 - 普通服务器01'
+    type: trojan
+    server: korea.anthoncloud.com
+    port: 30735
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇰🇷 韩国 - 普通服务器02'
+    type: trojan
+    server: shct.r1u.cn
+    port: 27754
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇰🇷 韩国 - 普通服务器03'
+    type: trojan
+    server: jscm.r1u.cn
+    port: 18189
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇰🇷 韩国 - 普通服务器04'
+    type: trojan
+    server: ahyd.pangupy.com
+    port: 12046
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇰🇷 韩国 - 普通服务器05'
+    type: trojan
+    server: ahyd.pangupy.com
+    port: 48739
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇰🇷 韩国 - 普通服务器06'
+    type: trojan
+    server: shct.r1u.cn
+    port: 46115
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇰🇷 韩国 - 普通服务器07'
+    type: trojan
+    server: jscm.r1u.cn
+    port: 20405
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇰🇷 韩国 - 普通服务器08'
+    type: trojan
+    server: whcm.pangupy.com
+    port: 23670
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇰🇷 韩国 - 普通服务器09'
+    type: trojan
+    server: whcm.pangupy.com
+    port: 17650
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇰🇷 韩国 - 高端服务器01'
+    type: trojan
+    server: korea.anthoncloud.com
+    port: 40969
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇰🇷 韩国 - 高端服务器02'
+    type: trojan
+    server: shct.r1u.cn
+    port: 28232
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇰🇷 韩国 - 高端服务器03'
+    type: trojan
+    server: jscm.r1u.cn
+    port: 17561
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇰🇷 韩国 - 高端服务器04'
+    type: trojan
+    server: ahyd.pangupy.com
+    port: 39857
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇰🇷 韩国 - 高端服务器05'
+    type: trojan
+    server: ahyd.pangupy.com
+    port: 42201
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇰🇷 韩国 - 高端服务器06'
+    type: trojan
+    server: shct.r1u.cn
+    port: 36031
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇰🇷 韩国 - 高端服务器07'
+    type: trojan
+    server: jscm.r1u.cn
+    port: 46661
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇰🇷 韩国 - 高端服务器08'
+    type: trojan
+    server: whcm.pangupy.com
+    port: 33638
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇰🇷 韩国 - 高端服务器09'
+    type: trojan
+    server: whcm.pangupy.com
+    port: 23885
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇨🇳 香港 - 普通服务器01'
+    type: trojan
+    server: hongkong.anthoncloud.com
+    port: 30768
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇨🇳 香港 - 普通服务器02'
+    type: trojan
+    server: shct.r1u.cn
+    port: 49334
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇨🇳 香港 - 普通服务器03'
+    type: trojan
+    server: jscm.r1u.cn
+    port: 40931
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇨🇳 香港 - 普通服务器04'
+    type: trojan
+    server: ahyd.pangupy.com
+    port: 54966
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇨🇳 香港 - 普通服务器05'
+    type: trojan
+    server: ahyd.pangupy.com
+    port: 52874
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇨🇳 香港 - 普通服务器06'
+    type: trojan
+    server: shct.r1u.cn
+    port: 33523
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇨🇳 香港 - 普通服务器07'
+    type: trojan
+    server: jscm.r1u.cn
+    port: 20597
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇨🇳 香港 - 普通服务器08'
+    type: trojan
+    server: whcm.pangupy.com
+    port: 43191
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇨🇳 香港 - 普通服务器09'
+    type: trojan
+    server: whcm.pangupy.com
+    port: 28710
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇨🇳 香港 - 高端服务器01'
+    type: trojan
+    server: hongkong.anthoncloud.com
+    port: 41007
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇨🇳 香港 - 高端服务器02'
+    type: trojan
+    server: shct.r1u.cn
+    port: 16491
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇨🇳 香港 - 高端服务器03'
+    type: trojan
+    server: jscm.r1u.cn
+    port: 27127
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇨🇳 香港 - 高端服务器04'
+    type: trojan
+    server: ahyd.pangupy.com
+    port: 43947
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇨🇳 香港 - 高端服务器05'
+    type: trojan
+    server: ahyd.pangupy.com
+    port: 30085
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇨🇳 香港 - 高端服务器06'
+    type: trojan
+    server: shct.r1u.cn
+    port: 13996
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇨🇳 香港 - 高端服务器07'
+    type: trojan
+    server: jscm.r1u.cn
+    port: 32319
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇨🇳 香港 - 高端服务器08'
+    type: trojan
+    server: whcm.pangupy.com
+    port: 18202
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+  -
+    name: '🇨🇳 香港 - 高端服务器09'
+    type: trojan
+    server: whcm.pangupy.com
+    port: 39925
+    password: 859e9c6b-b6f9-3b76-ba13-d92c62d7a591
+    sni: www-anthoncloud-com.oss-accelerate.aliyuncs.com
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2
+proxy-groups:
+  -
+    name: PROXY
+    type: select
+    proxies:
+      - '🇸🇬 新加坡 - 普通服务器01'
+      - '🇸🇬 新加坡 - 普通服务器02'
+      - '🇸🇬 新加坡 - 普通服务器03'
+      - '🇸🇬 新加坡 - 普通服务器04'
+      - '🇸🇬 新加坡 - 普通服务器05'
+      - '🇸🇬 新加坡 - 普通服务器06'
+      - '🇸🇬 新加坡 - 普通服务器07'
+      - '🇸🇬 新加坡 - 普通服务器08'
+      - '🇸🇬 新加坡 - 普通服务器09'
+      - '🇸🇬 新加坡 - 高端服务器01'
+      - '🇸🇬 新加坡 - 高端服务器02'
+      - '🇸🇬 新加坡 - 高端服务器03'
+      - '🇸🇬 新加坡 - 高端服务器04'
+      - '🇸🇬 新加坡 - 高端服务器05'
+      - '🇸🇬 新加坡 - 高端服务器06'
+      - '🇸🇬 新加坡 - 高端服务器07'
+      - '🇸🇬 新加坡 - 高端服务器08'
+      - '🇸🇬 新加坡 - 高端服务器09'
+      - '🇯🇵 日本 - 普通服务器01'
+      - '🇯🇵 日本 - 普通服务器02'
+      - '🇯🇵 日本 - 普通服务器03'
+      - '🇯🇵 日本 - 普通服务器04'
+      - '🇯🇵 日本 - 普通服务器06'
+      - '🇯🇵 日本 - 普通服务器07'
+      - '🇯🇵 日本 - 普通服务器09'
+      - '🇯🇵 日本 - 高端服务器01'
+      - '🇯🇵 日本 - 高端服务器02'
+      - '🇯🇵 日本 - 高端服务器03'
+      - '🇯🇵 日本 - 高端服务器04'
+      - '🇯🇵 日本 - 高端服务器06'
+      - '🇯🇵 日本 - 高端服务器07'
+      - '🇯🇵 日本 - 高端服务器09'
+      - '🇫🇷 法国 - 普通服务器01'
+      - '🇫🇷 法国 - 普通服务器02'
+      - '🇫🇷 法国 - 高端服务器01'
+      - '🇫🇷 法国 - 高端服务器02'
+      - '🇦🇺 澳大利亚 - 普通服务器01'
+      - '🇦🇺 澳大利亚 - 普通服务器02'
+      - '🇦🇺 澳大利亚 - 高端服务器01'
+      - '🇦🇺 澳大利亚 - 高端服务器02'
+      - '🇺🇲 美国 - 普通服务器01'
+      - '🇺🇲 美国 - 普通服务器02'
+      - '🇺🇲 美国 - 普通服务器03'
+      - '🇺🇲 美国 - 普通服务器04'
+      - '🇺🇲 美国 - 普通服务器06'
+      - '🇺🇲 美国 - 普通服务器07'
+      - '🇺🇲 美国 - 普通服务器09'
+      - '🇺🇲 美国 - 高端服务器01'
+      - '🇺🇲 美国 - 高端服务器02'
+      - '🇺🇲 美国 - 高端服务器03'
+      - '🇺🇲 美国 - 高端服务器04'
+      - '🇺🇲 美国 - 高端服务器06'
+      - '🇺🇲 美国 - 高端服务器07'
+      - '🇺🇲 美国 - 高端服务器09'
+      - '🇬🇧 英国 - 普通服务器01'
+      - '🇬🇧 英国 - 普通服务器02'
+      - '🇬🇧 英国 - 高端服务器01'
+      - '🇬🇧 英国 - 高端服务器02'
+      - '🇰🇷 韩国 - 普通服务器01'
+      - '🇰🇷 韩国 - 普通服务器02'
+      - '🇰🇷 韩国 - 普通服务器03'
+      - '🇰🇷 韩国 - 普通服务器04'
+      - '🇰🇷 韩国 - 普通服务器05'
+      - '🇰🇷 韩国 - 普通服务器06'
+      - '🇰🇷 韩国 - 普通服务器07'
+      - '🇰🇷 韩国 - 普通服务器08'
+      - '🇰🇷 韩国 - 普通服务器09'
+      - '🇰🇷 韩国 - 高端服务器01'
+      - '🇰🇷 韩国 - 高端服务器02'
+      - '🇰🇷 韩国 - 高端服务器03'
+      - '🇰🇷 韩国 - 高端服务器04'
+      - '🇰🇷 韩国 - 高端服务器05'
+      - '🇰🇷 韩国 - 高端服务器06'
+      - '🇰🇷 韩国 - 高端服务器07'
+      - '🇰🇷 韩国 - 高端服务器08'
+      - '🇰🇷 韩国 - 高端服务器09'
+      - '🇨🇳 香港 - 普通服务器01'
+      - '🇨🇳 香港 - 普通服务器02'
+      - '🇨🇳 香港 - 普通服务器03'
+      - '🇨🇳 香港 - 普通服务器04'
+      - '🇨🇳 香港 - 普通服务器05'
+      - '🇨🇳 香港 - 普通服务器06'
+      - '🇨🇳 香港 - 普通服务器07'
+      - '🇨🇳 香港 - 普通服务器08'
+      - '🇨🇳 香港 - 普通服务器09'
+      - '🇨🇳 香港 - 高端服务器01'
+      - '🇨🇳 香港 - 高端服务器02'
+      - '🇨🇳 香港 - 高端服务器03'
+      - '🇨🇳 香港 - 高端服务器04'
+      - '🇨🇳 香港 - 高端服务器05'
+      - '🇨🇳 香港 - 高端服务器06'
+      - '🇨🇳 香港 - 高端服务器07'
+      - '🇨🇳 香港 - 高端服务器08'
+      - '🇨🇳 香港 - 高端服务器09'
+
+
+rule-providers:
+  AnthonCloudDirect:
+    type: http
+    behavior: classical
+    url: 'https://www-anthoncloud-com.oss-accelerate.aliyuncs.com/clients/config/AnthonCloudDirect.yaml'
+    path: ./Rules/AnthonCloudDirect
+    interval: 86400
+  AnthonCloudProxy:
+    type: http
+    behavior: classical
+    url: 'https://www-anthoncloud-com.oss-accelerate.aliyuncs.com/clients/config/AnthonCloudProxy.yaml'
+    path: ./Rules/AnthonCloudProxy
+    interval: 86400
+#  AnthonCloudReject:
+#    type: http
+#    behavior: classical
+#    url: 'https://www-anthoncloud-com.oss-accelerate.aliyuncs.com/clients/config/AnthonCloudReject.yaml'
+#    path: ./Rules/AnthonCloudReject
+#    interval: 86400
+  AnthonCloudGlobal:
+    type: http
+    behavior: classical
+    url: 'https://www-anthoncloud-com.oss-accelerate.aliyuncs.com/clients/config/AnthonCloudGlobal.yaml'
+    path: ./Rules/AnthonCloudGlobal
+    interval: 86400
+  AnthonCloudChina:
+    type: http
+    behavior: classical
+    url: 'https://www-anthoncloud-com.oss-accelerate.aliyuncs.com/clients/config/AnthonCloudChina.yaml'
+    path: ./Rules/AnthonCloudChina
+    interval: 86400
+  AnthonCloudLan:
+    type: http
+    behavior: classical
+    url: 'https://www-anthoncloud-com.oss-accelerate.aliyuncs.com/clients/config/AnthonCloudLan.yaml'
+    path: ./Rules/AnthonCloudLan
+    interval: 86400
+rules:
+#
+# AnthonCloud
+#
+- RULE-SET,AnthonCloudDirect,DIRECT
+- RULE-SET,AnthonCloudProxy,PROXY
+
+
+#
+# Rule-Set
+#
+- RULE-SET,AnthonCloudGlobal,PROXY
+- RULE-SET,AnthonCloudChina,DIRECT
+- RULE-SET,AnthonCloudLan,DIRECT
+- GEOIP,CN,DIRECT
+- MATCH,PROXY
